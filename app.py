@@ -15,7 +15,7 @@ with open('LabelEncoder.pkl','rb') as file:
 with open('onehot_encoder.pkl','rb') as file:
     Onehot_Encoder_Geo = pickle.load(file)
 
-with open('scaler.pkl','rb') as file:
+with open('scaler_churn.pkl','rb') as file:
     Scaler = pickle.load(file)
 
 # Streamlit app
